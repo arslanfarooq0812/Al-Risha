@@ -88,9 +88,8 @@ const Company = () => {
           <div className="w-2/6">{pocPhoneNumber}</div>
           <div className="w-1/6">
             <div
-              className={`${
-                status === 'Active' ? 'bg-green-400' : 'bg-red-600'
-              } text-white w-16 h-7 flex justify-center items-center rounded-lg shadow-lg`}
+              className={`${status === 'Active' ? 'bg-green-400' : 'bg-red-600'
+                } text-white w-16 h-7 flex justify-center items-center rounded-lg shadow-lg`}
             >
               {status}
             </div>
@@ -301,6 +300,8 @@ const Company = () => {
             ))}
           </div>
         </div>
+       
+
       </div>
     </div>
   );
